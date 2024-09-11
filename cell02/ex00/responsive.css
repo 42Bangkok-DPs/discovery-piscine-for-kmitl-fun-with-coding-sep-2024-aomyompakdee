@@ -1,0 +1,36 @@
+
+body {
+   display: flex;
+   background-color: aliceblue;
+}
+
+table {
+    border-collapse: collapse;
+}
+.box {
+    height: 150px;
+    width: 120vh;
+    text-align: left;
+    padding: 20px;
+    color: #535353;
+    font-size: 20px;
+    border: 2px solid #838181;
+    
+}
+@media (max-width: 768px) {
+    .box {
+        height: auto; 
+        font-size: 16px; 
+    }
+}
+@media (max-width: 480px) {
+    .box {
+        font-size: 14px;
+        height: auto;
+    }
+    
+    table {
+        width: 100%; 
+        
+    }
+}
