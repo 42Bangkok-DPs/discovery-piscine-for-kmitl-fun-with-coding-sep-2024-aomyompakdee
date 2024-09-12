@@ -1,0 +1,31 @@
+.parallax{
+    display: flex;
+    background-image: url(https://img.freepik.com/free-photo/breathtaking-view-clouds-morning-sky_181624-19169.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    
+}
+.block{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    justify-content: center;
+    font-size: medium;
+    font-weight: 100;
+}
+.parallax2{
+    display: flex;
+    background-image: url(https://www.ultraimagehub.com/wallpapers/tr:flp-false,gx-0.5,gy-1,q-75,rh-3264,rw-5824,th-1080,tw-1920/1241680450158727288.jpeg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    
+}
