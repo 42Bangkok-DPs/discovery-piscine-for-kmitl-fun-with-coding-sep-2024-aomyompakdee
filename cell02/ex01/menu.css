@@ -1,0 +1,27 @@
+select{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(28, 171, 104);
+    color: antiquewhite;
+    font-size: medium;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(28, 171, 104);
+}
+select option{
+    background-color: aliceblue;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 20px;
+    font-weight: 200;
+    
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0%;
+}
