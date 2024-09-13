@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="backgroound.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="backgroound.js"></script>
+    <title>Backgroound</title>
+  </head>
+  <script>
+    function changeBackground() {
+        document.body.style.backgroundColor = getRandomColor();
+    }
+    function getRandomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+</script>
+  <body>
+    
+    <div class="container" id="bg">
+      <button class="btn" id="btn" onclick="changeBackground()">
+        <h1>Click to random!</h1>
+      </button>
+    </div>
+  </body>
+</html>
