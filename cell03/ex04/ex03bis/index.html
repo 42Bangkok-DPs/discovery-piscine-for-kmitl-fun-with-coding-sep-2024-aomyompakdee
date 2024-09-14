@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="todo.js"></script>
+    <title>TODOLIST</title>
+  </head>
+  <body>
+      <style>
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+      button {
+        margin-top: 10px;
+        border-width: 0px;
+        cursor: pointer;
+        transition: all 0.125s;
+      }
+      .addNewBtn {
+        margin-top: 50px;
+        border-radius: 10px;
+        background: linear-gradient(to right, #9c58bc,#ef88ec, #feb47b);
+        color: white;
+        font-family: monospace;
+        padding: 10px;
+        font-size:22px;
+        width: 150px;
+      }
+
+      .addNewBtn:hover {
+        background: black;
+        color: aliceblue;
+      }
+
+      .addNewBtn:active {
+        background: black;
+        color: aliceblue;
+      }
+
+
+      .todoItem {
+        border-radius: 10px;
+        background-color: #eeeeee;
+        color: black;
+        padding: 10px;
+        font-size: 20px;
+      }
+
+      .todoItem:hover {
+        background-color: #ce2929;
+        color: white;
+      }
+
+      .todoItem:active {
+        background-color: #bb2424;
+        color: white;
+      }
+      #ft_list {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5px;
+      }
+    </style>
+
+    <div class="container">
+        <button class="addNewBtn" id="addBtn">New</button>
+        <div id="ft_list"></div>
+    </div>
+  </body>
+</html>
